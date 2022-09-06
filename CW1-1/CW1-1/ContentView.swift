@@ -11,8 +11,9 @@ struct ContentView: View {
     var body: some View {
         VStack{
         ZStack{
-            Color.blue
-                .opacity(0.5)
+            Image("logo")
+                .resizable() 
+                .opacity(0.2)
             VStack{
                     
                 Text("Hello, My name is Abdulaziz")
@@ -20,9 +21,10 @@ struct ContentView: View {
                 Text("I am learning SwiftUI now")
     HStack{
         Image(systemName: "heart.fill")
-        Spacer()
+      Spacer()
         Image(systemName: "gear")
-        Spacer()
+       Spacer()
+        
     Image(systemName:"trash.fill")}
    
         
