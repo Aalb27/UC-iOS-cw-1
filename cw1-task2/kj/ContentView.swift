@@ -79,7 +79,10 @@ Spacer()
                    Spacer()
                     Spacer()
                     Spacer()
-                   Text("الشروق")
+                    Text("الشروق")
+                        .font(.title2)
+                        
+                    
                     Spacer()
                 }
                 .frame(width: 400, height: 50)
@@ -136,7 +139,8 @@ Spacer()
                 
                 } .background(Color.white.opacity(0.3))
                 
-                
+                    .font(.title2)
+
                 
                // .padding()
                 Spacer()
