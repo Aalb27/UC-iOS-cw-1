@@ -60,7 +60,7 @@ Spacer()
                 }
                 .frame(width: 400, height: 50)
                 .background(Color.white.opacity(0.3)) //.padding()
-                
+                Divider()
                 HStack{
                     Spacer()
                     Text("3:37 AM")
