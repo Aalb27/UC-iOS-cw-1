@@ -46,6 +46,8 @@ Spacer()
                 }
                 Spacer()
                 Text("باقي على الاذان")
+                    .foregroundColor(.white)
+
                 VStack{
                 HStack{
         Spacer()
@@ -57,7 +59,8 @@ Spacer()
                     Spacer()
                     Image(systemName: "chevron.right")
                     Spacer()
-                }
+                }                         .foregroundColor(.white)
+
                 .frame(width: 400, height: 50)
                 .background(Color.white.opacity(0.3)) //.padding()
                 Divider()
@@ -99,6 +102,8 @@ Spacer()
                 }
                 .frame(width: 400, height: 50)
                 .background(Color.white)
+                .foregroundColor(.black)
+
                 
                 HStack{
                     Spacer()
@@ -137,7 +142,10 @@ Spacer()
                 }
                 .frame(width: 400, height: 50)
                 
-                } .background(Color.white.opacity(0.3))
+                }
+                .foregroundColor(.white)
+
+                .background(Color.white.opacity(0.3))
                 
                     .font(.title2)
 
